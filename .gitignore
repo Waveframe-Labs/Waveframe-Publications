@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build artifacts
+dist/
+build/
+
+# Generated PDFs
+*.pdf
+
+# Logs
+*.log
