@@ -4,7 +4,7 @@ filetype: "documentation"
 type: "guidance"
 domain: "case-study"
 version: "0.1.0"
-doi: "TBD-0.1.0"
+doi: "10.5281/zenodo.18856615"
 status: "Active"
 created: "2026-03-03"
 updated: "2026-03-03"
@@ -194,7 +194,7 @@ title = {AI-Assisted Finance Governance: Deterministic Commit Gating Example},
 year = {2026},
 institution = {Waveframe Labs},
 version = {0.1.0},
-doi = {TBD-0.1.0},
+doi = {10.5281/zenodo.18856615},
 url = {https://github.com/Waveframe-Labs/waveframe-publications}
 }
 ```
