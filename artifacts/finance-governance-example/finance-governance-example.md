@@ -39,14 +39,8 @@ anchors:
 # AI-Assisted Finance Governance
 ### Deterministic Commit Gating in an AI-Assisted Finance Workflow
 
-Shawn C. Wright  
-Waveframe Labs  
-Lexington, KY, USA  
-
-March 2026
-
----  
-
+ ---
+ 
 ## Abstract
 
 AI systems are increasingly capable of generating operational
@@ -193,15 +187,19 @@ occur.
 ## Citation
 
 If you reference this artifact, please cite it as:
-
-```bibtex
+```markdown
 @misc{wright2026_finance_governance_example,
-  author       = {Shawn C. Wright},
-  title        = {AI-Assisted Finance Governance: Deterministic Commit Gating Example},
-  year         = {2026},
-  institution  = {Waveframe Labs},
-  version      = {0.1.0},
-  doi          = {TBD-0.1.0},
-  url          = {https://github.com/Waveframe-Labs/waveframe-publications}
+author = {Shawn C. Wright},
+title = {AI-Assisted Finance Governance: Deterministic Commit Gating Example},
+year = {2026},
+institution = {Waveframe Labs},
+version = {0.1.0},
+doi = {TBD-0.1.0},
+url = {https://github.com/Waveframe-Labs/waveframe-publications}
 }
 ```
+---
+
+<p align="center"><sub>
+© 2026 Waveframe Labs — Independent Open-Science Research Entity • Governed under the Aurora Research Initiative (ARI)
+</sub></p>
