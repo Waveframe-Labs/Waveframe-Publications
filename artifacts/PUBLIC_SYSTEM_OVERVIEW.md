@@ -1,55 +1,14 @@
 ---
 title: "Waveframe System Overview"
-filetype: "documentation"
-type: "public-system-overview"
-domain: "runtime governance architecture"
+subtitle: "Runtime Execution-Boundary Enforcement Architecture"
+author: "Shawn C. Wright"
+organization: "Waveframe Labs"
 version: "0.1.0"
-doi: "10.5281/zenodo.20310076"
 status: "Active"
-created: "2026-05-20"
-updated: "2026-05-20"
-
-author:
-  name: "Shawn C. Wright"
-  email: "swright@waveframelabs.org"
-  orcid: "https://orcid.org/0009-0006-6043-9295"
-
-maintainer:
-  name: "Waveframe Labs"
-  url: "https://waveframelabs.org"
-
-institution: "Waveframe Labs"
-keywords:
-  - "Waveframe"
-  - "runtime governance"
-  - "execution authority"
-  - "deterministic admissibility"
-  - "operational lineage"
-
+doi: "10.5281/zenodo.20310076"
+created: "2026-05-17"
 license: "CC-BY-4.0"
-
-copyright:
-  holder: "Shawn C. Wright / Waveframe Labs"
-  year: "2026"
-
 ai_assisted: "partial"
-
-dependencies: []
-
-anchors:
-  - "the-problem"
-  - "the-architectural-shift"
-  - "the-separation-principle"
-  - "waveframe-architecture"
-  - "runtime-enforcement-model"
-  - "proposal-normalization"
-  - "governed-execution"
-  - "operational-lineage"
-  - "architectural-invariants"
-  - "open-problems"
-  - "conclusion"
-  - "appendix-vocabulary"
-
 ---
 
 # Waveframe System Overview
