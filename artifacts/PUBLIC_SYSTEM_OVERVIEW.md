@@ -108,22 +108,23 @@ That separation matters because it applies broadly. The same enforcement boundar
 
 The proposal layer remains creative and flexible. The execution boundary remains deterministic, explicit, and auditable.
 
-```mermaid
-flowchart TD
-    A["Probabilistic Proposal Generation<br/>(AI / Human / Workflow / Agent)"]
-    B["Proposed Mutation"]
-    C["Execution Boundary"]
-    D["Deterministic Evaluation"]
-    E["Admissibility Decision"]
-    F["Allow Execution"]
-    G["Block Execution"]
+```text
+Probabilistic Proposal Generation
+(AI / Human / Workflow / Agent)
+                |
+                v
+        Proposed Mutation
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    E --> G
+=================================
+        EXECUTION BOUNDARY
+=================================
+
+    Deterministic Evaluation
+                |
+                v
+     Admissibility Decision
+          /             \
+ Allow Execution   Block Execution
 ```
 
 ## 4. Waveframe Architecture
@@ -141,28 +142,31 @@ Waveframe is organized around responsibility boundaries rather than a single mon
 
 The important boundary is that runtime admissibility remains local and deterministic. Cloud infrastructure may distribute authority artifacts and preserve operational evidence, but admissibility evaluation remains locally owned by the governed runtime.
 
-```mermaid
-flowchart TD
-    A["Policy / Governance Source"]
-    B["Governance Ledger"]
-    C["Contract Compiler"]
-    D["Compiled Contract"]
-    E["Proposal Normalizer"]
-    F["Canonical Proposal"]
-    G["CRI-CORE"]
-    H["commit_allowed"]
-    I["ALLOW"]
-    J["BLOCK"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    H --> J
+```text
+Policy / Governance Source
+                |
+                v
+        Governance Ledger
+                |
+                v
+        Contract Compiler
+                |
+                v
+        Compiled Contract
+                |
+                v
+       Proposal Normalizer
+                |
+                v
+        Canonical Proposal
+                |
+                v
+             CRI-CORE
+                |
+                v
+          commit_allowed
+          /             \
+       ALLOW           BLOCK
 ```
 
 ## 5. Runtime Enforcement Model
