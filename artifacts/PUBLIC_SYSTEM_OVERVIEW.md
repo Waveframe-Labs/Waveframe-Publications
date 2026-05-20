@@ -280,5 +280,5 @@ Waveframe is built around that transition: proposals may remain flexible, but ex
 | Operational Lineage | The evidence chain connecting source policy, review, compiled authority, execution decision, and replay material. |
 
 <div align="center">
-  <sub>© 2026 Waveframe Labs — Independent Open-Science Research Entity</sub>
+  <sub>© 2026 Waveframe Labs — Independent Open-Science Research Entity — DOI: 10.5281/zenodo.20310076</sub>
 </div>
